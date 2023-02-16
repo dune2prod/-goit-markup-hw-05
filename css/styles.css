@@ -337,18 +337,20 @@ a {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-}
-.customers-list-link:is(:hover, :focus) {
-  border: 1px solid var(--hover-nav-clr);
-}
-.customers-svgbox {
-  width: 41px;
-  height: 47px;
   fill: #8e8f99;
 }
-.customers-svgbox:hover {
+
+.customers-list-link:is(:hover, :focus) {
+  border-color: var(--hover-nav-clr);
   fill: var(--hover-nav-clr);
 }
+.customers-svgbox {
+  width: 104px;
+  height: 56px;
+}
+/* .customers-svgbox:hover {
+  fill: var(--hover-nav-clr);
+} */
 
 /* =============footer================ */
 .footer-flexbox {
