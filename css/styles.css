@@ -71,6 +71,7 @@ a {
 }
 
 .header-navigation-item {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -81,12 +82,25 @@ a {
   /* transition: color, cubic-bezier(0.4, 0, 0.2, 1), 250ms; */
   transition: color, var(--trn);
 }
+.header-navigation-item:is(:hover, :focus, :active)::after {
+  content: "";
+  width: 66px;
+  height: 4px;
+  left: 0px;
+  top: 48px;
+  /* OCEAN */
+  background-color: #404bbf;
+  border-radius: 2px;
+  position: absolute;
+  top: 48px;
+}
+
 .header-navigation-item:is(:hover, :focus) {
   color: var(--hover-nav-clr);
 }
-.header-navigation-item {
+.header-list {
+  position: relative;
 }
-
 .header-list:not(:last-child) {
   margin-right: 40px;
 }
