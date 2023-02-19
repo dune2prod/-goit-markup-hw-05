@@ -66,7 +66,7 @@
         <section class="hero">
             <h1 class="hero-header">Effective Solutions for Your Business</h1>
             <!-- button  -->
-            <button class="hero-btn" type="button">Order Service</button>
+            <button data-modal-open class="hero-btn" type="button">Order Service</button>
         </section>
 
         <!-- feature list section 2 -->
@@ -399,9 +399,9 @@
 
     </footer>
     <!--===================== backdrop ==========================-->
-    <div class="backdrop-overlay is-hidden">
+    <div data-modal class="backdrop-overlay is-hidden">
         <div class="backdrop-window">
-            <button class="backdrop-close-btn" type="button">
+            <button data-modal-close class="backdrop-close-btn" type="button">
                 <svg class="close-icon">
                     <use href="./pictures/sprite.svg#icon-close-btn""></use>
                 </svg>
@@ -412,6 +412,8 @@
         </div>
 
     </div>
+   <script src=" ./js/modal.js">
+</script>
 </body>
 
 </html>
