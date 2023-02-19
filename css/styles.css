@@ -551,3 +551,23 @@ a {
   background-color: var(--hover-nav-clr);
   color: var(--main-clr);
 }
+/* ============== BACKDROP ============== */
+.backdrop-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  top: 0px;
+  left: 0px;
+}
+.backdrop-window {
+  position: absolute;
+  width: 408px;
+  height: 576px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.backdrop-close-btn {
+}
