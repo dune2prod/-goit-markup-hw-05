@@ -435,16 +435,16 @@ a {
   background: #31d0aa;
 }
 
-.footer-list-item {
-}
+/* .footer-list-item {
+} */
 .footer-socialmedia-list {
   display: flex;
   gap: 16px;
   margin-top: 16px;
 }
 /* ==========GALLERY================ */
-.gallery {
-}
+/* .gallery {
+} */
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
@@ -522,8 +522,6 @@ a {
   color: var(--third-clr);
 }
 /* ==========BUTTONS================ */
-.buttons {
-}
 
 .button-list-item:not(:last-child) {
   margin-right: 24px;
