@@ -93,7 +93,7 @@ a {
   left: 0px;
   top: 47px;
   /* OCEAN */
-  background-color: #404bbf;
+  background-color: var(--hover-nav-clr);
   border-radius: 2px;
   position: absolute;
 }
